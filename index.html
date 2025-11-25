@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -214,4 +215,222 @@
     <script src="assets/js/main.js"></script>
 </body>
 
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alethium Labs | Intelligent Systems</title>
+    <meta name="description"
+        content="Alethium Labs is an AI R&D lab designing intelligent systems, workflows, and agents for real-world production environments.">
+
+    <!-- Fonts: Space Grotesk (Gen Z / Modern Tech Vibe) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Tailwind CSS (CDN for immediate usage without build step) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'bg-color': '#000000',
+                        'text-primary': '#f5f5f7',
+                        'text-secondary': '#86868b',
+                        'mint': '#36E4A8',
+                        'purple': '#7B5CFF',
+                    },
+                    fontFamily: {
+                        sans: ['Space Grotesk', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body class="bg-black text-white antialiased selection:bg-mint selection:text-black">
+
+    <div class="flex flex-col lg:flex-row min-h-screen">
+        <!-- Left Panel: Typography & Intro -->
+        <div id="left-panel"
+            class="w-full lg:w-[45%] relative z-10 flex flex-col justify-between p-8 md:p-16 lg:p-24 lg:h-screen lg:sticky lg:top-0">
+
+            <!-- Top: Brand -->
+            <div class="mb-16 lg:mb-0 brand-row flex items-center gap-4">
+                <img src="assets/logo/logo.svg" alt="Alethium Labs Logo" class="h-10 w-10 opacity-90">
+                <span class="text-xs font-semibold tracking-wider text-text-secondary uppercase label-text">Alethium
+                    Labs</span>
+            </div>
+
+            <!-- Middle: Main Content -->
+            <div class="flex-grow flex flex-col justify-center max-w-xl">
+                <h1
+                    class="text-5xl md:text-6xl lg:text-7xl font-semibold text-text-primary leading-[1.05] tracking-tighter mb-10">
+                    Designing <br>
+                    intelligent systems <br>
+                    for real work.
+                </h1>
+
+                <p class="text-xl md:text-2xl text-text-secondary leading-relaxed max-w-md font-normal tracking-tight">
+                    Alethium Labs is an AI R&D lab that designs workflows, agents, and tools to make complex systems
+                    usable in real environments.
+                </p>
+            </div>
+
+            <!-- Bottom: Stats -->
+            <div class="mt-16 lg:mt-0 grid grid-cols-1 md:grid-cols-3 gap-8 border-t border-white/10 pt-10 stats-row">
+                <div>
+                    <span class="block text-[10px] uppercase tracking-wider text-text-secondary mb-2">Focus</span>
+                    <span class="text-sm text-text-primary font-medium">AI workflows, agents, interfaces</span>
+                </div>
+                <div>
+                    <span class="block text-[10px] uppercase tracking-wider text-text-secondary mb-2">Work</span>
+                    <span class="text-sm text-text-primary font-medium">Systems design, data tools</span>
+                </div>
+                <div>
+                    <span class="block text-[10px] uppercase tracking-wider text-text-secondary mb-2">Presence</span>
+                    <span class="text-sm text-text-primary font-medium">Remote-first, deep systems</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Panel: Glass & Details -->
+        <div id="right-panel" class="w-full lg:w-[55%] relative min-h-screen">
+
+            <!-- Background Gradients - More Diffuse -->
+            <div class="fixed inset-0 z-0 pointer-events-none">
+                <div
+                    class="absolute top-[-10%] right-[-5%] w-[900px] h-[900px] bg-purple/10 rounded-full blur-[150px] mix-blend-screen bg-blob opacity-60">
+                </div>
+                <div
+                    class="absolute bottom-[-5%] right-[25%] w-[700px] h-[700px] bg-mint/5 rounded-full blur-[130px] mix-blend-screen bg-blob opacity-50">
+                </div>
+            </div>
+
+            <!-- Glass Container -->
+            <div class="relative z-10 glass-panel min-h-full p-8 md:p-16 lg:p-24">
+
+                <!-- Grid Lines -->
+                <div class="absolute inset-0 overflow-hidden pointer-events-none opacity-50">
+                    <div class="grid-v left-[20%]"></div>
+                    <div class="grid-v left-[50%]"></div>
+                    <div class="grid-v left-[80%]"></div>
+                    <div class="grid-h top-[200px]"></div>
+                    <div class="grid-h top-[500px]"></div>
+                    <div class="grid-h top-[800px]"></div>
+                </div>
+
+                <!-- Content Sections -->
+                <div class="space-y-32 max-w-2xl mx-auto relative glass-content pt-10">
+
+                    <!-- 01: What we are -->
+                    <section class="group">
+                        <span class="text-mint font-mono text-xs mb-6 block opacity-80">01</span>
+                        <h2 class="text-3xl font-semibold text-text-primary mb-8 tracking-tight">What we are</h2>
+                        <div class="text-text-secondary text-lg leading-relaxed space-y-6 font-normal">
+                            <p>
+                                Alethium Labs is an AI R&D lab specializing in systems where automation, data, and human
+                                judgment meet.
+                            </p>
+                            <p>
+                                We design architectures, workflows, and tools that can actually run in production.
+                            </p>
+                        </div>
+                    </section>
+
+                    <!-- 02: What we do -->
+                    <section class="group">
+                        <span class="text-mint font-mono text-xs mb-6 block opacity-80">02</span>
+                        <h2 class="text-3xl font-semibold text-text-primary mb-8 tracking-tight">What we do</h2>
+                        <div class="grid gap-10">
+                            <div
+                                class="border-l border-white/10 pl-6 hover:border-mint/50 transition-colors duration-500">
+                                <h3 class="text-text-primary text-xl font-medium mb-2 tracking-tight">AI Workflows &
+                                    Agents</h3>
+                                <p class="text-base text-text-secondary leading-relaxed">Internal operations and
+                                    decision support.</p>
+                            </div>
+                            <div
+                                class="border-l border-white/10 pl-6 hover:border-mint/50 transition-colors duration-500">
+                                <h3 class="text-text-primary text-xl font-medium mb-2 tracking-tight">Data Tools</h3>
+                                <p class="text-base text-text-secondary leading-relaxed">Analysis layers, search, and
+                                    insight dashboards.</p>
+                            </div>
+                            <div
+                                class="border-l border-white/10 pl-6 hover:border-mint/50 transition-colors duration-500">
+                                <h3 class="text-text-primary text-xl font-medium mb-2 tracking-tight">Interfaces</h3>
+                                <p class="text-base text-text-secondary leading-relaxed">Control panels and interaction
+                                    models beyond a basic chat box.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- 03: What we will build next -->
+                    <section class="group">
+                        <span class="text-mint font-mono text-xs mb-6 block opacity-80">03</span>
+                        <h2 class="text-3xl font-semibold text-text-primary mb-8 tracking-tight">What we will build
+                            next
+                        </h2>
+                        <p class="text-text-secondary text-lg leading-relaxed font-normal">
+                            Multi-agent systems, human-in-the-loop tooling, behavior-aware systems, and orchestration
+                            layers for complex organizations.
+                        </p>
+                    </section>
+
+                    <!-- Who we are -->
+                    <section class="group pt-16 border-t border-white/10">
+                        <div class="flex flex-col md:flex-row justify-between items-start gap-12">
+                            <div class="max-w-sm">
+                                <h3 class="text-xs font-semibold text-text-primary uppercase tracking-wider mb-4">Who we
+                                    are</h3>
+                                <p class="text-base text-text-secondary leading-relaxed">
+                                    Small, focused team; systems thinkers; prefer working on deep, infrastructure-level
+                                    problems rather than surface gimmicks.
+                                </p>
+                            </div>
+
+                            <!-- Socials -->
+                            <div class="flex flex-col gap-4 text-sm font-medium">
+                                <a href="https://github.com/AlethiumLabs"
+                                    class="text-text-secondary hover:text-mint transition-colors flex items-center gap-3 group/link">
+                                    GitHub
+                                    <span
+                                        class="opacity-0 -translate-x-2 group-hover/link:opacity-100 group-hover/link:translate-x-0 transition-all duration-300">→</span>
+                                </a>
+                                <a href="https://www.instagram.com/alethiumlabs/"
+                                    class="text-text-secondary hover:text-purple transition-colors flex items-center gap-3 group/link">
+                                    Instagram
+                                    <span
+                                        class="opacity-0 -translate-x-2 group-hover/link:opacity-100 group-hover/link:translate-x-0 transition-all duration-300">→</span>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Footer -->
+                    <div class="pt-24 pb-12 text-[10px] text-text-secondary uppercase tracking-wider opacity-60">
+                        © 2025 Alethium Labs
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+>>>>>>> 20bb83087008f362ab67fc971cf13795f25fe652
 </html>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 User-agent: *
 Allow: /
 Sitemap: https://alethiumlabs.example/sitemap.xml
@@ -7,3 +8,14 @@ Allow: /
 
 User-agent: Google-Extended
 Allow: /
+=======
+User-agent: *
+Allow: /
+Sitemap: https://alethiumlabs.example/sitemap.xml
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+>>>>>>> 20bb83087008f362ab67fc971cf13795f25fe652
