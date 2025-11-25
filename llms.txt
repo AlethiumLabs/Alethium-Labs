@@ -1,0 +1,20 @@
+# Alethium Labs
+
+## About
+Alethium Labs is a research lab dedicated to AI verification, trust engineering, and transparent systems. We build AI from first principles, focusing on scientific rigor, open research, and real-world testing.
+
+## Core Research Areas
+1. **Watchtower (Verification)**: Open platform for AI system verification, public benchmarks, and transparent methodologies.
+2. **Enterprise AI (Deployment)**: Productionizing research with custom workflows for mission-critical systems.
+3. **Lab Platform (Infrastructure)**: The operational backbone for continuous monitoring and deployment orchestration.
+
+## Philosophy
+- **Scientific Method**: Hypothesis, Experiment, Validate, Publish.
+- **Open by Default**: Public datasets, transparent benchmarks, open-source tools.
+- **Real-world Testing**: Testing AI systems in production environments.
+- **Enterprise Grade**: Security, compliance, and reliability.
+
+## Links
+- Website: https://alethiumlabs.com
+- GitHub: https://github.com/AlethiumLabs
+- Instagram: https://www.instagram.com/alethiumlabs/

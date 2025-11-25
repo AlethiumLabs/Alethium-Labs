@@ -4,67 +4,112 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alethium Labs</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="styles.css">
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            border: "rgba(0, 0, 0, 0.1)",
-            input: "transparent",
-            ring: "oklch(0.708 0 0)",
-            background: "#ffffff",
-            foreground: "oklch(0.145 0 0)",
-            primary: {
-              DEFAULT: "#030213",
-              foreground: "oklch(1 0 0)",
-            },
-            secondary: {
-              DEFAULT: "oklch(0.95 0.0058 264.53)",
-              foreground: "#030213",
-            },
-            destructive: {
-              DEFAULT: "#d4183d",
-              foreground: "#ffffff",
-            },
-            muted: {
-              DEFAULT: "#ececf0",
-              foreground: "#717182",
-            },
-            accent: {
-              DEFAULT: "#e9ebef",
-              foreground: "#030213",
-            },
-            popover: {
-              DEFAULT: "oklch(1 0 0)",
-              foreground: "oklch(0.145 0 0)",
-            },
-            card: {
-              DEFAULT: "#ffffff",
-              foreground: "oklch(0.145 0 0)",
-            },
-          },
-          borderRadius: {
-            lg: "var(--radius)",
-            md: "calc(var(--radius) - 2px)",
-            sm: "calc(var(--radius) - 4px)",
-          },
-        },
-      },
+  <title>Alethium Labs | AI Research & Verification</title>
+  <meta name="description" content="Alethium Labs is a research lab dedicated to AI verification, trust engineering, and transparent systems. We build AI from first principles.">
+  <meta name="keywords" content="AI Research, AI Verification, Trust Engineering, Transparent AI, Alethium Labs, Artificial Intelligence, Machine Learning, Enterprise AI">
+  <meta name="author" content="Alethium Labs">
+    <link rel="canonical" href="https://alethiumlabs.com/">
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alethiumlabs.com/">
+    <meta property="og:title" content="Alethium Labs | AI Research & Verification">
+    <meta property="og:description"
+      content="Alethium Labs is a research lab dedicated to AI verification, trust engineering, and transparent systems. We build AI from first principles.">
+    <meta property="og:image" content="https://alethiumlabs.com/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://alethiumlabs.com/">
+    <meta property="twitter:title" content="Alethium Labs | AI Research & Verification">
+    <meta property="twitter:description"
+      content="Alethium Labs is a research lab dedicated to AI verification, trust engineering, and transparent systems. We build AI from first principles.">
+    <meta property="twitter:image" content="https://alethiumlabs.com/twitter-image.jpg">
+
+    <!-- Geo Tags -->
+    <meta name="geo.region" content="US">
+    <meta name="geo.placename" content="San Francisco">
+    <meta name="geo.position" content="37.7749;-122.4194">
+    <meta name="ICBM" content="37.7749, -122.4194">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Alethium Labs",
+      "url": "https://alethiumlabs.com",
+      "logo": "https://alethiumlabs.com/logo.png",
+      "sameAs": [
+        "https://github.com/AlethiumLabs",
+        "https://www.instagram.com/alethiumlabs/"
+      ],
+      "description": "A research lab exploring AI verification, trust engineering, and transparent systems."
     }
   </script>
-</head>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              border: "rgba(0, 0, 0, 0.1)",
+              input: "transparent",
+              ring: "oklch(0.708 0 0)",
+              background: "#ffffff",
+              foreground: "oklch(0.145 0 0)",
+              primary: {
+                DEFAULT: "#030213",
+                foreground: "oklch(1 0 0)",
+              },
+              secondary: {
+                DEFAULT: "oklch(0.95 0.0058 264.53)",
+                foreground: "#030213",
+              },
+              destructive: {
+                DEFAULT: "#d4183d",
+                foreground: "#ffffff",
+              },
+              muted: {
+                DEFAULT: "#ececf0",
+                foreground: "#717182",
+              },
+              accent: {
+                DEFAULT: "#e9ebef",
+                foreground: "#030213",
+              },
+              popover: {
+                DEFAULT: "oklch(1 0 0)",
+                foreground: "oklch(0.145 0 0)",
+              },
+              card: {
+                DEFAULT: "#ffffff",
+                foreground: "oklch(0.145 0 0)",
+              },
+            },
+            borderRadius: {
+              lg: "var(--radius)",
+              md: "calc(var(--radius) - 2px)",
+              sm: "calc(var(--radius) - 4px)",
+            },
+          },
+        },
+      }
+    </script>
+  </head>
 
 <body class="min-h-screen bg-white">
   <!-- Header -->
-  <header class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-2xl border-b border-black/5">
+  <header class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-2xl border-b border-black/5" role="banner">
     <div class="max-w-[980px] mx-auto px-6">
       <div class="flex items-center justify-between h-[44px]">
         <div class="flex items-center gap-2">
           <!-- Logo -->
-          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" role="img"
+            aria-label="Alethium Labs Logo">
             <g>
               <path d="M10 4 L10 10 L6 18 C6 20.21 7.79 22 10 22 L18 22 C20.21 22 22 20.21 22 18 L18 10 L18 4 Z"
                 stroke="currentColor" stroke-width="1.5" fill="none" />
@@ -76,18 +121,21 @@
           </svg>
           <span class="text-[17px] tracking-tight" style="font-weight: 500">Alethium Labs</span>
           <span
-            class="ml-2 text-[11px] tracking-wide px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-600 border border-indigo-100">
+            class="ml-2 text-[11px] tracking-wide px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-600 border border-indigo-100"
+            aria-label="Research Status">
             RESEARCH
           </span>
         </div>
 
-        <nav class="flex items-center gap-8">
+        <nav class="flex items-center gap-8" role="navigation" aria-label="Main Navigation">
           <a href="https://github.com/AlethiumLabs" target="_blank" rel="noopener noreferrer"
-            class="text-[12px] text-gray-600 hover:text-black transition-colors">
+            class="text-[12px] text-gray-600 hover:text-black transition-colors"
+            aria-label="Visit Alethium Labs on GitHub">
             GitHub
           </a>
           <a href="https://www.instagram.com/alethiumlabs/" target="_blank" rel="noopener noreferrer"
-            class="text-[12px] text-gray-600 hover:text-black transition-colors">
+            class="text-[12px] text-gray-600 hover:text-black transition-colors"
+            aria-label="Visit Alethium Labs on Instagram">
             Instagram
           </a>
         </nav>
@@ -96,18 +144,20 @@
   </header>
 
   <!-- Hero -->
-  <section class="relative pt-[140px] pb-[100px] lg:pt-[200px] lg:pb-[140px] px-6 overflow-hidden">
+  <section class="relative pt-[140px] pb-[100px] lg:pt-[200px] lg:pb-[140px] px-6 overflow-hidden"
+    aria-label="Hero Section">
     <!-- Interactive canvas -->
-    <canvas id="hero-canvas" class="absolute inset-0 pointer-events-none"></canvas>
+    <canvas id="hero-canvas" class="absolute inset-0 pointer-events-none" aria-hidden="true"></canvas>
 
     <!-- Subtle gradient backdrop -->
-    <div class="absolute inset-0 bg-gradient-to-b from-white via-indigo-50/20 to-white"></div>
+    <div class="absolute inset-0 bg-gradient-to-b from-white via-indigo-50/20 to-white" aria-hidden="true"></div>
 
     <div class="relative max-w-[1200px] mx-auto text-center space-y-8">
       <!-- Research badge -->
       <div
-        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/80 backdrop-blur-sm border border-indigo-100 shadow-sm">
-        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" class="animate-pulse">
+        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/80 backdrop-blur-sm border border-indigo-100 shadow-sm"
+        role="status">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" class="animate-pulse" aria-hidden="true">
           <circle cx="8" cy="8" r="3" fill="#6366F1" />
           <circle cx="8" cy="8" r="6" stroke="#6366F1" stroke-width="1" opacity="0.3" />
         </svg>
@@ -129,18 +179,18 @@
         We don't just build—we investigate, validate, and publish.
       </p>
 
-      <div class="flex items-center justify-center gap-3 text-[14px] text-gray-500">
+      <div class="flex items-center justify-center gap-3 text-[14px] text-gray-500" aria-label="Core Values">
         <span>Open Research</span>
-        <span>•</span>
+        <span aria-hidden="true">•</span>
         <span>Public Testing</span>
-        <span>•</span>
+        <span aria-hidden="true">•</span>
         <span>Scientific Rigor</span>
       </div>
     </div>
   </section>
 
   <!-- Features -->
-  <section class="py-[100px] lg:py-[140px] px-6 bg-white">
+  <section class="py-[100px] lg:py-[140px] px-6 bg-white" aria-label="Research Areas">
     <div class="max-w-[1200px] mx-auto">
       <!-- Section header -->
       <div class="text-center mb-16">
@@ -156,13 +206,14 @@
         <!-- Watchtower - Indigo -->
         <div
           class="group relative overflow-hidden rounded-[24px] bg-white border-2 border-indigo-500/20 p-10 lg:p-12 hover:border-indigo-500 hover:shadow-xl hover:shadow-indigo-500/10 transition-all duration-300">
-          <div class="absolute top-6 right-6 w-12 h-12 rounded-full bg-indigo-500/10 flex items-center justify-center">
+          <div class="absolute top-6 right-6 w-12 h-12 rounded-full bg-indigo-500/10 flex items-center justify-center"
+            aria-hidden="true">
             <span class="text-[16px]" style="font-weight: 600">01</span>
           </div>
 
           <div class="space-y-5 mt-4">
             <div class="flex items-center gap-2">
-              <div class="w-2 h-2 rounded-full bg-indigo-500"></div>
+              <div class="w-2 h-2 rounded-full bg-indigo-500" aria-hidden="true"></div>
               <span class="text-[11px] tracking-widest uppercase text-gray-500">VERIFICATION</span>
             </div>
 
@@ -180,13 +231,14 @@
         <!-- Enterprise - Cyan -->
         <div
           class="group relative overflow-hidden rounded-[24px] bg-white border-2 border-cyan-500/20 p-10 lg:p-12 hover:border-cyan-500 hover:shadow-xl hover:shadow-cyan-500/10 transition-all duration-300">
-          <div class="absolute top-6 right-6 w-12 h-12 rounded-full bg-cyan-500/10 flex items-center justify-center">
+          <div class="absolute top-6 right-6 w-12 h-12 rounded-full bg-cyan-500/10 flex items-center justify-center"
+            aria-hidden="true">
             <span class="text-[16px]" style="font-weight: 600">02</span>
           </div>
 
           <div class="space-y-5 mt-4">
             <div class="flex items-center gap-2">
-              <div class="w-2 h-2 rounded-full bg-cyan-500"></div>
+              <div class="w-2 h-2 rounded-full bg-cyan-500" aria-hidden="true"></div>
               <span class="text-[11px] tracking-widest uppercase text-gray-500">DEPLOYMENT</span>
             </div>
 
@@ -204,13 +256,14 @@
         <!-- Infrastructure - Orange -->
         <div
           class="group relative overflow-hidden rounded-[24px] bg-white border-2 border-orange-500/20 p-10 lg:p-12 hover:border-orange-500 hover:shadow-xl hover:shadow-orange-500/10 transition-all duration-300">
-          <div class="absolute top-6 right-6 w-12 h-12 rounded-full bg-orange-500/10 flex items-center justify-center">
+          <div class="absolute top-6 right-6 w-12 h-12 rounded-full bg-orange-500/10 flex items-center justify-center"
+            aria-hidden="true">
             <span class="text-[16px]" style="font-weight: 600">03</span>
           </div>
 
           <div class="space-y-5 mt-4">
             <div class="flex items-center gap-2">
-              <div class="w-2 h-2 rounded-full bg-orange-500"></div>
+              <div class="w-2 h-2 rounded-full bg-orange-500" aria-hidden="true"></div>
               <span class="text-[11px] tracking-widest uppercase text-gray-500">INFRASTRUCTURE</span>
             </div>
 
@@ -229,7 +282,7 @@
   </section>
 
   <!-- Watchtower -->
-  <section class="py-[120px] lg:py-[160px] px-6 bg-gradient-to-b from-white to-gray-50">
+  <section class="py-[120px] lg:py-[160px] px-6 bg-gradient-to-b from-white to-gray-50" aria-label="Our Approach">
     <div class="max-w-[1100px] mx-auto">
       <div class="space-y-20">
         <!-- Research statement -->
@@ -255,7 +308,7 @@
           <div
             class="space-y-4 p-8 rounded-2xl bg-white border-2 border-indigo-500/20 hover:border-indigo-500 transition-colors">
             <div class="flex items-center gap-3">
-              <div class="w-10 h-10 rounded-full bg-indigo-500/10 flex items-center justify-center">
+              <div class="w-10 h-10 rounded-full bg-indigo-500/10 flex items-center justify-center" aria-hidden="true">
                 <div class="w-3 h-3 rounded-full bg-indigo-500"></div>
               </div>
               <h3 class="text-[24px] tracking-tight" style="font-weight: 600">
@@ -272,7 +325,7 @@
           <div
             class="space-y-4 p-8 rounded-2xl bg-white border-2 border-cyan-500/20 hover:border-cyan-500 transition-colors">
             <div class="flex items-center gap-3">
-              <div class="w-10 h-10 rounded-full bg-cyan-500/10 flex items-center justify-center">
+              <div class="w-10 h-10 rounded-full bg-cyan-500/10 flex items-center justify-center" aria-hidden="true">
                 <div class="w-3 h-3 rounded-full bg-cyan-500"></div>
               </div>
               <h3 class="text-[24px] tracking-tight" style="font-weight: 600">
@@ -289,7 +342,7 @@
           <div
             class="space-y-4 p-8 rounded-2xl bg-white border-2 border-orange-500/20 hover:border-orange-500 transition-colors">
             <div class="flex items-center gap-3">
-              <div class="w-10 h-10 rounded-full bg-orange-500/10 flex items-center justify-center">
+              <div class="w-10 h-10 rounded-full bg-orange-500/10 flex items-center justify-center" aria-hidden="true">
                 <div class="w-3 h-3 rounded-full bg-orange-500"></div>
               </div>
               <h3 class="text-[24px] tracking-tight" style="font-weight: 600">
@@ -306,7 +359,7 @@
           <div
             class="space-y-4 p-8 rounded-2xl bg-white border-2 border-emerald-500/20 hover:border-emerald-500 transition-colors">
             <div class="flex items-center gap-3">
-              <div class="w-10 h-10 rounded-full bg-emerald-500/10 flex items-center justify-center">
+              <div class="w-10 h-10 rounded-full bg-emerald-500/10 flex items-center justify-center" aria-hidden="true">
                 <div class="w-3 h-3 rounded-full bg-emerald-500"></div>
               </div>
               <h3 class="text-[24px] tracking-tight" style="font-weight: 600">
@@ -333,7 +386,7 @@
   </section>
 
   <!-- Footer -->
-  <footer class="bg-[#F8F9FA] pt-16 pb-8 border-t border-black/5">
+  <footer class="bg-[#F8F9FA] pt-16 pb-8 border-t border-black/5" role="contentinfo">
     <div class="max-w-[1200px] mx-auto px-6">
       <!-- Main footer content -->
       <div class="pb-12 mb-8 border-b border-black/5">
@@ -345,7 +398,8 @@
                 Alethium Labs
               </div>
               <span
-                class="text-[11px] tracking-wide px-2 py-1 rounded-full bg-white border border-black/10 text-gray-600">
+                class="text-[11px] tracking-wide px-2 py-1 rounded-full bg-white border border-black/10 text-gray-600"
+                aria-label="Research Status">
                 RESEARCH
               </span>
             </div>
@@ -355,7 +409,7 @@
             </p>
 
             <!-- Alethium brand colors -->
-            <div class="flex items-center gap-2 pt-2">
+            <div class="flex items-center gap-2 pt-2" aria-hidden="true">
               <div class="w-3 h-3 rounded-full bg-indigo-500"></div>
               <div class="w-3 h-3 rounded-full bg-cyan-500"></div>
               <div class="w-3 h-3 rounded-full bg-orange-500"></div>
@@ -369,14 +423,16 @@
               Connect
             </div>
             <a href="https://github.com/AlethiumLabs" target="_blank" rel="noopener noreferrer"
-              class="text-[16px] text-gray-700 hover:text-black transition-colors flex items-center gap-2">
+              class="text-[16px] text-gray-700 hover:text-black transition-colors flex items-center gap-2"
+              aria-label="Visit Alethium Labs on GitHub">
               GitHub
-              <span class="text-gray-400">→</span>
+              <span class="text-gray-400" aria-hidden="true">→</span>
             </a>
             <a href="https://www.instagram.com/alethiumlabs/" target="_blank" rel="noopener noreferrer"
-              class="text-[16px] text-gray-700 hover:text-black transition-colors flex items-center gap-2">
+              class="text-[16px] text-gray-700 hover:text-black transition-colors flex items-center gap-2"
+              aria-label="Visit Alethium Labs on Instagram">
               Instagram
-              <span class="text-gray-400">→</span>
+              <span class="text-gray-400" aria-hidden="true">→</span>
             </a>
           </div>
         </div>
@@ -394,7 +450,7 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 
 </html>
