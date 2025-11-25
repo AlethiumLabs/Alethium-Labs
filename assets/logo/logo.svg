@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -11,17 +10,3 @@
 <path d="M256 160L352 208V304L256 352L160 304V208L256 160Z" fill="url(#grad1)" fill-opacity="0.2" stroke="url(#grad1)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="256" cy="256" r="32" fill="#36E4A8"/>
 </svg>
-=======
-<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-<stop offset="0%" style="stop-color:#36E4A8;stop-opacity:1" />
-<stop offset="100%" style="stop-color:#7B5CFF;stop-opacity:1" />
-</linearGradient>
-</defs>
-<rect width="512" height="512" fill="none"/>
-<path d="M256 64L448 160V352L256 448L64 352V160L256 64Z" stroke="url(#grad1)" stroke-width="32" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-<path d="M256 160L352 208V304L256 352L160 304V208L256 160Z" fill="url(#grad1)" fill-opacity="0.2" stroke="url(#grad1)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="256" cy="256" r="32" fill="#36E4A8"/>
-</svg>
->>>>>>> 20bb83087008f362ab67fc971cf13795f25fe652
