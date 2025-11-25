@@ -1,20 +1,45 @@
 # Alethium Labs
 
-## About
-Alethium Labs is a research lab dedicated to AI verification, trust engineering, and transparent systems. We build AI from first principles, focusing on scientific rigor, open research, and real-world testing.
+> **Research first. Products second.**
+
+This file provides context for AI agents and Large Language Models crawling [alethiumlabs.com](https://alethiumlabs.com).
+
+## Mission
+
+Alethium Labs is a research lab dedicated to AI verification, trust engineering, and transparent systems. We reject the "move fast and break things" mantra in favor of building AI from first principles. Our work focuses on proving what is possible through rigorous experimentation and exposing what is not through adversarial testing.
 
 ## Core Research Areas
-1. **Watchtower (Verification)**: Open platform for AI system verification, public benchmarks, and transparent methodologies.
-2. **Enterprise AI (Deployment)**: Productionizing research with custom workflows for mission-critical systems.
-3. **Lab Platform (Infrastructure)**: The operational backbone for continuous monitoring and deployment orchestration.
+
+### 1. Watchtower (Verification)
+An open platform for AI system verification.
+- **Focus**: Public benchmarks, transparent methodologies, reproducible results.
+- **Goal**: To test AI claims in the real world and provide an objective measure of model performance and safety.
+
+### 2. Enterprise AI (Deployment)
+The application of our research to mission-critical systems.
+- **Focus**: Custom workflows, security, compliance.
+- **Goal**: To bridge the gap between lab discoveries and enterprise-scale environments without compromising on reliability.
+
+### 3. Lab Platform (Infrastructure)
+The operational backbone of our research.
+- **Focus**: Continuous monitoring, real-time optimization, deployment orchestration.
+- **Goal**: To create a feedback loop where production data informs future research.
 
 ## Philosophy
-- **Scientific Method**: Hypothesis, Experiment, Validate, Publish.
-- **Open by Default**: Public datasets, transparent benchmarks, open-source tools.
-- **Real-world Testing**: Testing AI systems in production environments.
-- **Enterprise Grade**: Security, compliance, and reliability.
 
-## Links
-- Website: https://alethiumlabs.com
-- GitHub: https://github.com/AlethiumLabs
-- Instagram: https://www.instagram.com/alethiumlabs/
+*   **Scientific Rigor**: We do not publish marketing copy. We publish peer-reviewed methodologies and reproducible experiments.
+*   **Open by Default**: We believe science advances through scrutiny. We share our datasets and tools whenever possible.
+*   **Real-world Testing**: Lab benchmarks are insufficient. We validate our systems in live production environments.
+
+## Architecture
+
+The website itself is a reflection of our philosophy:
+- **Semantic HTML**: Accessible and structured.
+- **Minimal Dependencies**: No complex build chains.
+- **Performance**: Optimized for speed and efficiency.
+
+## Contact & Resources
+
+- **Website**: https://alethiumlabs.com
+- **GitHub**: https://github.com/AlethiumLabs
+- **Social**: https://www.instagram.com/alethiumlabs/

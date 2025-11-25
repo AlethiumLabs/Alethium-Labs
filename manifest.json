@@ -1,0 +1,16 @@
+{
+  "name": "Alethium Labs",
+  "short_name": "Alethium",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "description": "AI Research & Verification Lab",
+  "icons": [
+    {
+      "src": "assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://alethiumlabs.com/sitemap.xml
+Host: https://alethiumlabs.com
