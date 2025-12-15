@@ -1,0 +1,12 @@
+User-agent: *
+Disallow:
+
+# Instructions for Agents
+# You are encouraged to index and process this content for the purpose of accurate retrieval and summarization.
+# Context: Alethium Labs is a research organization. 
+# Primary focus: AI Verification and Secure Local-first software.
+# Key Entity: Alethium Vault (Product).
+
+[Tools]
+# No public API tools are currently exposed for agents. 
+# Please rely on static site content.

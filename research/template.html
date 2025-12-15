@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Title | Alethium Labs</title>
+    <link rel="icon" type="image/svg+xml" href="../../assets/images/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <style>
+        .prose h2 {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+            color: #111;
+        }
+
+        .prose p {
+            margin-bottom: 1.5rem;
+            line-height: 1.7;
+        }
+    </style>
+</head>
+
+<body class="min-h-screen bg-white text-gray-900 flex flex-col">
+    <header class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-2xl border-b border-black/5">
+        <div class="max-w-[980px] mx-auto px-6">
+            <div class="flex items-center justify-between h-[64px]">
+                <div class="flex items-center gap-4">
+                    <a href="../../index.html" class="flex items-center gap-3 text-inherit no-underline">
+                        <!-- Logo -->
+                        <svg class="block text-current" width="28" height="28" viewBox="0 0 28 28" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10 4 L10 10 L6 18 C6 20.21 7.79 22 10 22 L18 22 C20.21 22 22 20.21 22 18 L18 10 L18 4 Z"
+                                stroke="currentColor" stroke-width="1.5" fill="none" />
+                            <line x1="10" y1="4" x2="18" y2="4" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                        <span class="text-[17px] tracking-tight font-medium leading-none">Alethium Labs</span>
+                    </a>
+                    <div
+                        class="inline-flex items-center justify-center px-2 py-0.5 rounded-full bg-indigo-50 border border-indigo-100 h-[22px]">
+                        <span
+                            class="text-[11px] tracking-wide text-indigo-600 font-medium leading-none pt-[1px]">RESEARCH</span>
+                    </div>
+                </div>
+                <nav class="flex items-center gap-8">
+                    <a href="../index.html"
+                        class="text-[13px] font-medium text-black hover:text-gray-600 transition-colors">Research</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-[140px] pb-20 px-6 max-w-[800px] mx-auto w-full flex-grow">
+        <article>
+            <header class="mb-12">
+                <h1 class="text-4xl font-bold mb-4">Research Title</h1>
+                <div class="flex items-center gap-4 text-sm text-gray-500">
+                    <time datetime="2025-01-01">January 1, 2025</time>
+                    <span>•</span>
+                    <span>Verification</span>
+                </div>
+            </header>
+
+            <div class="prose prose-lg text-gray-800 max-w-none">
+                <section id="abstract">
+                    <h2 class="text-2xl">Abstract</h2>
+                    <p>Brief summary of the research.</p>
+                </section>
+
+                <section id="methodology">
+                    <h2 class="text-2xl">Methodology</h2>
+                    <p>How the experiment was conducted.</p>
+                </section>
+
+                <section id="experiment">
+                    <h2 class="text-2xl">The Experiment</h2>
+                    <p>Details of the experimental setup and execution.</p>
+                </section>
+
+                <section id="results">
+                    <h2 class="text-2xl">Results</h2>
+                    <p>Findings and data.</p>
+                </section>
+
+                <section id="limitations">
+                    <h2 class="text-2xl text-red-700">Limitations & Negative Results</h2>
+                    <div class="p-4 bg-red-50 border border-red-100 rounded-lg text-red-900">
+                        <p class="mb-0"><strong>CRITICALLY:</strong> Describe what failed, edge cases, and where this
+                            research does NOT apply.</p>
+                    </div>
+                </section>
+
+                <section id="citation" class="mt-12 pt-8 border-t border-gray-100">
+                    <h2 class="text-xl font-bold mb-4">Citation</h2>
+                    <pre class="bg-gray-50 p-4 rounded text-sm overflow-x-auto text-gray-600 border border-gray-100">
+@article{alethium2025title,
+  title={Research Title},
+  author={Alethium Labs},
+  year={2025},
+  url={https://alethiumlabs.com/research/slug}
+}
+                </pre>
+                </section>
+            </div>
+        </article>
+    </main>
+
+    <footer class="bg-[#F8F9FA] py-12 border-t border-black/5 mt-auto">
+        <div class="max-w-[980px] mx-auto px-6 text-center text-gray-500 text-sm">
+            © 2025 Alethium Labs.
+        </div>
+    </footer>
+</body>
+
+</html>
