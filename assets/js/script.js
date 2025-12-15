@@ -119,4 +119,37 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   animate();
+
+  // Dropdown Interaction Logic
+  const dropdownGroup = document.getElementById('products-dropdown');
+  const dropdownBtn = dropdownGroup ? dropdownGroup.querySelector('button') : null;
+
+  if (dropdownGroup && dropdownBtn) {
+    // Toggle on click
+    dropdownBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isExpanded = dropdownBtn.getAttribute('aria-expanded') === 'true';
+      dropdownBtn.setAttribute('aria-expanded', !isExpanded);
+      dropdownGroup.classList.toggle('show-dropdown');
+    });
+
+    // Close on click outside
+    document.addEventListener('click', (e) => {
+      if (!dropdownGroup.contains(e.target)) {
+        if (dropdownGroup.classList.contains('show-dropdown')) {
+          dropdownBtn.setAttribute('aria-expanded', 'false');
+          dropdownGroup.classList.remove('show-dropdown');
+        }
+      }
+    });
+
+    // Close on Escape
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && dropdownGroup.classList.contains('show-dropdown')) {
+        dropdownBtn.setAttribute('aria-expanded', 'false');
+        dropdownGroup.classList.remove('show-dropdown');
+        dropdownBtn.focus();
+      }
+    });
+  }
 });
